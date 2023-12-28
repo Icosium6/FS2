@@ -3,7 +3,7 @@ import { Container, Typography, Avatar, Box, Button } from "@mui/material";
 import Card from "@mui/material/Card";
 import { Link } from "react-router-dom";
 
-const AboutMe = () => {
+const temp = () => {
   return (
     <div
       style={{
@@ -37,7 +37,7 @@ const AboutMe = () => {
             {/* Avatar */}
             <Avatar
               alt="Chelboub"
-              src="9ouba3.jpg"
+              src="bilelpfp.jpg"
               sx={{
                 width: 150,
                 height: 150,
@@ -200,4 +200,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default temp;

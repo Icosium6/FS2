@@ -17,7 +17,7 @@ import ChangePwd from "./components/ChangePwd";
 import Navbar from "./components/Navbar";
 import { CssBaseline } from "@mui/material";
 import "./app.css";
-import AboutMe from "./components/AboutMe";
+import AboutMe from "./pages/AboutMe";
 import Courses from "./pages/Courses";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";

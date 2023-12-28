@@ -17,7 +17,7 @@ const SocialLinks = ({ socialLinks }) => {
       variant="outlined"
       sx={{
         background: "#e0e0e0",
-        borderColor: "#66bb6a",
+        borderColor: "#1f3d2b",
         borderWidth: "2px",
         borderRadius: "12px",
       }}
@@ -27,7 +27,7 @@ const SocialLinks = ({ socialLinks }) => {
           variant="h6"
           align="center"
           gutterBottom
-          sx={{ color: "#505e11" }}
+          sx={{ color: "#1f3d2b" }}
         >
           Social Links
         </Typography>
@@ -40,10 +40,9 @@ const SocialLinks = ({ socialLinks }) => {
         >
           {socialLinks.map((item, index) => (
             <Grid item key={index} display="flex" flexDirection="row">
-              <Link to={item.link} target="_blank" rel="noopener noreferrer">
-                {item.icon}
+              <Link to={item.link} target="_blank" rel="noopener noreferrer" style={{display:"flex",flexDirection:"row",textDecoration:"none",color:"black"}} >
+               <span style={{color:`${item.color}`}}>{item.icon}</span> <Typography marginLeft={2}>{item.text}</Typography>
               </Link>
-              <Typography marginLeft={2}>{item.link}</Typography>
             </Grid>
           ))}
         </Grid>
@@ -58,7 +57,7 @@ const BookSessionCard = () => {
       variant="outlined"
       sx={{
         background: "#e0e0e0",
-        borderColor: "#66bb6a",
+        borderColor: "#1f3d2b",
         borderWidth: "2px",
         borderRadius: "12px",
       }}
@@ -68,7 +67,7 @@ const BookSessionCard = () => {
           variant="h6"
           align="center"
           gutterBottom
-          sx={{ color: "#505e11" }}
+          sx={{ color: "#1f3d2b" }}
         >
           Book a Session
         </Typography>
@@ -95,9 +94,9 @@ const BookSessionCard = () => {
 
 const Contact = () => {
   const socialLinks = [
-    { icon: <Facebook />, link: "#" },
-    { icon: <Instagram />, link: "#" },
-    { icon: <Email />, link: "mailto:yourteacher@example.com" },
+    { icon: <Facebook />, link: "https://www.facebook.com/YeahMrWhite" ,text : "Facebook page",color : "#4267B2"},
+    { icon: <Instagram />, link: "#" ,text : "Instagram page",color : "#C13584"},
+    { icon: <Email />, link: "mailto:yourteacher@example.com" ,text : "yourteacher@example.com",color : "#FFC72C"},
   ];
 
   const handleSubmit = (e) => {
@@ -124,7 +123,7 @@ const Contact = () => {
             variant="outlined"
             sx={{
               background: "#e0e0e0",
-              borderColor: "#66bb6a",
+              borderColor: "#1f3d2b",
               borderWidth: "2px",
               borderRadius: "12px",
             }}
@@ -137,7 +136,7 @@ const Contact = () => {
                 variant="h4"
                 gutterBottom
                 textAlign="center"
-                sx={{ color: "#505e11" }}
+                sx={{ color: "#1f3d2b" }}
               >
                 Reach Out!
               </Typography>
@@ -149,7 +148,7 @@ const Contact = () => {
                   label="Name"
                   variant="outlined"
                   margin="normal"
-                  color="mgreen"
+                  color="dggreen"
                 />
                 <TextField
                   sx={{ background: "white" }}
@@ -159,7 +158,7 @@ const Contact = () => {
                   type="email"
                   variant="outlined"
                   margin="normal"
-                  color="mgreen"
+                  color="dggreen"
                 />
                 <TextField
                   sx={{ background: "white" }}
@@ -170,7 +169,7 @@ const Contact = () => {
                   label="Message"
                   variant="outlined"
                   margin="normal"
-                  color="mgreen"
+                  color="dggreen"
                 />
                 <Button
                   type="submit"

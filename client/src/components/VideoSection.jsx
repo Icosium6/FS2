@@ -39,7 +39,7 @@ const VideoSection = () => {
           <Typography
             // mr={24}
             mt={1}
-            typography={{ xs: "h5", sm: "h4" }}
+            typography={{ xs: "h6", md: "h4" }}
             gutterBottom
             color="white"
           >
@@ -50,7 +50,7 @@ const VideoSection = () => {
           <Typography
             //ml={24}
             mr={2}
-            typography="body1"
+            typography={{ xs: "body2", md: "h6" }}
             gutterBottom
             color="white"
             textAlign="justify"

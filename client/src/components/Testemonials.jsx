@@ -84,7 +84,7 @@ const Testemonials = () => {
           <Typography
             //ml={24}
             mr={2}
-            typography="body1"
+            typography={{ xs: "body2", md: "h6" }}
             sx={{ color: "white" }}
             gutterBottom
           >
