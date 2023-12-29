@@ -9,7 +9,6 @@ import {
   Rating,
   Avatar,
   Box,
-  CardMedia,
 } from "@mui/material";
 import { Link } from "react-router-dom";
 import ServicesTabs from "./ServiceTabs";

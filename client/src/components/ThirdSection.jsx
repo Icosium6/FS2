@@ -40,7 +40,7 @@ const ThirdSection = () => {
           alignItems: "center",
         }}
       >
-        <img style={{ height: "250px" }} src="tableau2.png"></img>
+        <img style={{ height: "250px" }} src="tableau2.png" alt="white_board"></img>
         <Typography typography={{ xs: "h5", sm: "h4" }} textAlign="center">
           Personalized Approach
         </Typography>
@@ -61,7 +61,7 @@ const ThirdSection = () => {
           alignItems: "center",
         }}
       >
-        <img style={{ height: "250px" }} src="book2.png"></img>
+        <img style={{ height: "250px" }} src="book2.png" alt="book"></img>
         <Typography typography={{ xs: "h5", sm: "h4" }} textAlign="center">
           Certified Instructor
         </Typography>
@@ -82,7 +82,7 @@ const ThirdSection = () => {
           alignItems: "center",
         }}
       >
-        <img style={{ height: "250px" }} src="phone2.png"></img>
+        <img style={{ height: "250px" }} src="phone2.png" alt="phone"></img>
         <Typography typography={{ xs: "h5", sm: "h4" }} textAlign="center">
           Multiple Platforms
         </Typography>

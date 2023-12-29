@@ -3,9 +3,7 @@ import {
   Paper,
   Typography,
   Card,
-  CardContent,
   Container,
-  Box,
 } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 

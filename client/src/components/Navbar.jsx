@@ -3,10 +3,8 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
-import Container from "@mui/material/Container";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import Button from "@mui/material/Button";
 import SettingsIcon from "@mui/icons-material/Settings";
@@ -15,7 +13,6 @@ import Login from "@mui/icons-material/Login";
 import PersonAdd from "@mui/icons-material/PersonAdd";
 import MenuItem from "@mui/material/MenuItem";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import AdbIcon from "@mui/icons-material/Adb";
 import SpeedIcon from "@mui/icons-material/Speed";
 import Divider from "@mui/material/Divider";
 
@@ -25,7 +22,6 @@ import useAuth from "../hooks/useAuth";
 import AuthContext from "../context/AuthProvider";
 import axios from "../api/axios";
 import Chip from "@mui/material/Chip";
-import { Margin } from "@mui/icons-material";
 
 const Navbar = () => {
   const { setAuth } = useContext(AuthContext); //for the logout
